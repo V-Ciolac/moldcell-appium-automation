@@ -10,7 +10,7 @@ describe('Стартовый экран приложения', () => {
     await driver.terminateApp(APP_PACKAGE);
   });
 
-  it('Позитивный сценарий: запуск приложения и проверка ВСЕХ элементов экрана', async () => {
+  it('Позитивный сценарий: запуск приложения и проверка всех элементов экрана', async () => {
     // 1. Действие: Запуск приложения
     await driver.activateApp(APP_PACKAGE);
     await LoginPage.waitForScreenLoad();
